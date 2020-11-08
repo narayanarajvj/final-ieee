@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href="static/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="job-page">
+        <div class="form">
+            <!-- <form action="{{ url_for('completed') }}" method="post" class="job-form"> -->
+            <div class="job-form">
+                <div class="row">
+                    <div class="col">
+                        <span class="label">Country</span>
+                        <input type="text" placeholder="eg: India"/>
+                    </div>
+                    <div class="col">
+                        <span class="label">City</span>
+                        <input type="text" placeholder="eg: Bangalore"/>
+                    </div>
+                </div>
+                <span class="label">Most recent job title</span>
+                <input type="text" placeholder="eg: Software Engineer"/>
+                <span class="label">Employment type</span>
+                <input type="text" placeholder="eg: Part-time"/>
+                <span class="label">Skill keywords</span>
+                <input type="text" placeholder="eg: baking, frosting, pasteries"/>
+                <button onclick="window.location.href='login.html'">Submit</button>
+            </div>
+            <!-- </form> -->
+        </div>
+    </div>
+</body>
+</html>
