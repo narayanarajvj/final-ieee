@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href="static/main.css" rel="stylesheet" type="text/css">
+    
+    
+</head>
+<body>
+  <div class="login-page">
+    <div class="form">
+      <!-- <form class="register-form" action="{{ url_for('registration') }}" method="post"> -->
+        <div class="register-form">
+        <input type="text" name= "newusername" placeholder="name"/>
+        <input type="password" name="newpassword" placeholder="password"/>
+        <input type="text" name="newemail" placeholder="email address"/>
+        <button>Create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+      </div>
+      <!-- </form> -->
+      <!-- <form class="login-form" action="{{ url_for('login') }}" method="post"> -->
+        <div class="login-form">
+        <input type="text" name="username" placeholder="username"/>
+        <input type="password" name="password" placeholder="password"/>
+        <button onclick="window.location.href='main.html'">Login</button>
+        <p class="message">Not registered? <a href="#">Create an account</a></p>
+      </div>
+      <!-- </form> -->
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="../static/script.js"></script>
+
+</body>
+</html>
